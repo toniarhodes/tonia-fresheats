@@ -7,6 +7,10 @@ img {
     height: auto;
 }
 
+.toppics-container {
+    display: block;
+}
+
 ul {
     display: flex;
     flex-direction: column;
@@ -14,11 +18,18 @@ ul {
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 20px;
-    text-decoration: none;
 }
 
-.logo {
-    border-radius: 30px;
+.planpics-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.planpics2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 @media (max-width: 750px) {
@@ -31,8 +42,9 @@ ul {
 
 a {
     color: #000;
+    text-decoration: none;
 }
 
-a :hover {
-    color: #ff0;
+a:hover {
+    color: #eea793;
 }
